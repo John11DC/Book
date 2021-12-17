@@ -15,11 +15,13 @@
   </head>
   <body>
     
-
+    {% include "part/navBar.html.twig" %}
+    <div>
     
     {% block body %}
     {% endblock %}
-    
+    </div>
+    {% include "part/footer.html.twig" %}
 
     
     {% block javascripts %}
